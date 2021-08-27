@@ -1,0 +1,231 @@
+/* USING ICOMOON */
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?g4cevu');
+    src:  url('../fonts/icomoon.eot?g4cevu#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?g4cevu') format('truetype'),
+      url('../fonts/icomoon.woff?g4cevu') format('woff'),
+      url('../fonts/icomoon.svg?g4cevu#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak-as: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-document-star:before {
+    content: "\e904";
+  }
+  .icon-chat:before {
+    content: "\e905";
+  }
+  .icon-comments:before {
+    content: "\e905";
+  }
+  .icon-bubble:before {
+    content: "\e905";
+  }
+  .icon-talk:before {
+    content: "\e905";
+  }
+  .icon-rss_feed:before {
+    content: "\e900";
+  }
+  .icon-facebook:before {
+    content: "\e901";
+  }
+  .icon-search:before {
+    content: "\e902";
+  }
+  .icon-twitter:before {
+    content: "\e903";
+  }
+  .icon-search1:before {
+    content: "\e986";
+  }
+  .icon-cloud-download:before {
+    content: "\e9c2";
+  }
+  .icon-rss:before {
+    content: "\ea9b";
+  }
+  
+
+/* USING ICOMOON*/
+
+
+
+:root {
+    --prim: #26292e;
+    --sec: #e7718a;  
+    
+}
+
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.5s ease;
+}
+
+a:hover {
+    color: var(--sec);
+}
+
+.icon {
+    font-size: 25px;
+}
+
+.row {
+    margin: 0 auto;
+    width: 960px;
+    padding: 0 20px;
+    
+    
+}
+
+
+
+
+
+/* Header */
+
+.header {
+    background-color: var(--prim);
+    
+}
+
+
+.logo {
+    font-family: giddyup-std, sans-serif;
+    color: white;
+}
+
+.one {
+    background-color: var(--sec);
+    color: white;
+}
+
+.block1 {
+    padding: 20px 15px 20px 0px;
+}
+
+.img-fluid {
+    width: 500px;
+    height: auto;
+    margin: 30px;
+}   
+
+.button {
+    background-color: var(--prim);
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    transition: color 0.5s ease;
+    padding: 10px;
+    
+}
+
+.button:hover{
+    background-color: var(--sec);
+}
+.block3, .block4, .block5, .block6, .block7 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.two {
+    background-color: #f4f4f5;
+    border-bottom: 5px solid #FCE3E7; 
+}
+
+.two span {
+    float: left;
+    padding-right: 7px;
+}
+
+.three {
+    background-color: whitesmoke;
+    padding-bottom: 20px;
+}
+
+
+
+.onei, .twoi {
+    border: 5px solid #B9C5D1;
+    font-size: 40px;
+    padding: 20px 50px 20px 50px;
+    margin: 10px;
+    background-color: #444444;
+    color: white;
+}
+.product1 {
+    padding: 40px 20px 20px 0;
+}
+.product2 {
+    padding-top: 60px;
+}
+
+.threei, .fouri {
+    border: 5px solid #B9C5D1;
+    font-size: 40px;
+    padding: 20px 50px 20px 50px;
+    margin: 10px;
+    background-color: #444444;
+    color: white;
+}
+
+footer {
+    background-color: var(--prim);
+}
+.colophon {
+    color:white;
+}
+
+/*
+@media screen and (max-width: 768px) {
+    .top-header {
+        background-color: blue;
+        
+    }
+
+    nav {
+        display: inline;
+        float: left;
+    }
+
+    .block1 {
+        display: block;
+        align-items: left;
+        justify-content: left;
+
+    }
+
+} */
